@@ -1,5 +1,5 @@
 
-public class Solution {
+public class CS_1_4_1 {
     public static void printNumbers(int n) {
 
         while(n!=1){
