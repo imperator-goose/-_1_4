@@ -15,9 +15,7 @@ public class CS_1_4_2 {
         if (k == 1) {
         return 0;
         } else {
-        long horse1 = (long) k * k;
-        long horse2 = (horse1 - 1);
-        return (horse1 * horse2 / 2) - 4L * (k - 1) * (k - 2);
+        return  k * k * ((long) k * k - 1) / 2 - 4L * (k - 1) * (k - 2);
         }
     }
 }
