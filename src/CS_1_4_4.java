@@ -6,9 +6,9 @@ public class CS_1_4_4 {
         return str.contentEquals(new StringBuilder(str).reverse());
     }
     public static String buildPalindrome(String input) {
-//        if(isPalindrome(input)){
-//            return input;
-//        }
+        if(isPalindrome(input)){
+            return input;
+        }
 
         Map<Character, Integer> map = new HashMap<>();
 
